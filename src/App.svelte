@@ -47,7 +47,7 @@
   <div class="barra-top"></div>
 
   <div class="inner">
-    <h1 class="titulo">Incendios en España</h1>
+    <h1 class="titulo">Temporada de incendios 2026 en España</h1>
 
     {#if stats === undefined}
       <!-- cargando -->
