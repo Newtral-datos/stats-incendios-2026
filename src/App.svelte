@@ -47,7 +47,7 @@
   <div class="barra-top"></div>
 
   <div class="inner">
-    <h1 class="titulo">Temporada de incendios 2026 en España</h1>
+    <h1 class="titulo">Monitor de incendios 2026: focos activos y hectáreas afectadas en España</h1>
 
     {#if stats === undefined}
       <!-- cargando -->
@@ -165,10 +165,12 @@
   }
 
   @media (max-width: 560px) {
-    .inner { padding: 20px 20px 18px; }
-    .titulo { font-size: 26px; }
-    .num { font-size: 34px; }
+    .inner { padding: 16px 12px 14px; gap: 12px; }
+    .titulo { font-size: 22px; }
+    .num { font-size: 26px; }
+    .label { font-size: 9px; }
     .sep { display: none; }
-    .cifras { gap: 20px; }
+    .cifras { gap: 8px; flex-wrap: nowrap; justify-content: center; width: 100%; }
+    .cifra { flex: 1; min-width: 0; }
   }
 </style>
