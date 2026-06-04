@@ -47,7 +47,7 @@
   <div class="barra-top"></div>
 
   <div class="inner">
-    <h1 class="titulo">Monitor de incendios 2026: focos activos y hectáreas afectadas en España</h1>
+    <h1 class="titulo">Monitor de incendios 2026: focos activos y hectáreas afectadas en España y Portugal</h1>
 
     {#if stats === undefined}
       <!-- cargando -->
@@ -72,7 +72,7 @@
       </div>
 
       {#if stats.actualizado}
-        <p class="actualizado">Datos actualizados el {fmtFecha(stats.actualizado)} · Fuente: Copernicus EFFIS · NASA FIRMS</p>
+        <p class="actualizado">Datos actualizados el {fmtFecha(stats.actualizado)} · Fuente: Copernicus EFFIS y NASA FIRMS</p>
       {/if}
     {/if}
   </div>
