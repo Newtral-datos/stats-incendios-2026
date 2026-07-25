@@ -7,7 +7,7 @@
 
   function fmtFecha(iso) {
     if (!iso) return ''
-    const d = new Date(iso + 'T00:00:00')
+    const d = new Date(iso)
     return d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })
   }
 
